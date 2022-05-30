@@ -1,0 +1,16 @@
+footer{
+    width: 100vw;
+    background-color:#1F2421 ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer .redes{
+    padding: 20px;
+}
+
+footer .redes img{
+    padding-left: 50px;
+}
+

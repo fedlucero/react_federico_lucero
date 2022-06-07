@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/menu/NavBar';
 import Footer from './components/footer/Footer';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 function App() {
   return (
     
@@ -12,6 +13,7 @@ function App() {
         <p>
           Generative Art
         </p>
+        <ItemListContainer saludo="Hola"/>
       </header>
       <Footer/>
     </div>

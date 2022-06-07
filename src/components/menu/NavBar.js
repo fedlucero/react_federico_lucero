@@ -1,5 +1,8 @@
 
+import CartWidget from '../CartWidget/CartWidget';
+import NavLink from '../NavLink/NavLink';
 import './Navbar.css';
+
 
 function NavBar() {
   return (
@@ -9,15 +12,10 @@ function NavBar() {
     <div
       className="navMenu">
       <ul>
-        <li>
-            Home
-        </li>
-        <li>
-            Art
-        </li>
-        <li>
-            Galery
-        </li>
+        <NavLink title="Home"/>
+        <NavLink title="Art"/>
+        <NavLink title="Galery"/>
+        <CartWidget/>
       </ul>
     </div>
   </nav>

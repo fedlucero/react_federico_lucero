@@ -7,14 +7,9 @@ function App() {
     
     <div className="App">
       <Navbar/>
-      <header className="App-header">
-        <div className='logoXl'>
-        </div>
-        <p>
-          Generative Art
-        </p>
-        <ItemListContainer saludo="Hola"/>
-      </header>
+      <div className='container'>
+      <ItemListContainer saludo="Hola"/>
+      </div>
       <Footer/>
     </div>
   );

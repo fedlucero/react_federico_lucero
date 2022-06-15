@@ -5,18 +5,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
-.logoXl{
-  margin-top: 50px;
-  width: 50vh;
-  height: 50vh;
-  border-radius: 50%;
-  background-color: #80CE9C;
-}
+
 
 .App-header p{
   font-size: 2rem;
   color:#80CE9C;
 
+}
+
+.container{
+  margin-top: 10vh;
+}
+
+.container div{
+  display: flex;
+  justify-content: space-around;
 }

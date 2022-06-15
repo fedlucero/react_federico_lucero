@@ -1,0 +1,14 @@
+
+.cardSaku{
+    margin:1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color:#0f130f ;
+}
+
+.captionSaku{
+    display: flex;
+    justify-content: space-between;
+    color:#80CE9C;
+}
